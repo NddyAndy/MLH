@@ -29,5 +29,5 @@ app.use((err, req, res, next) => {
 
 //TURN ON PORTS
 app.listen(port, () => {
-    console.log(`app is running on ${port} `);
+    console.log(`app is running on ${port}, verify on browser `);
 })
